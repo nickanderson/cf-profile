@@ -83,7 +83,7 @@ $data{stop} = Time::HiRes::gettimeofday();
 
 if(defined($opts{c}) or defined($opts{a})){
 	print "===============================================================================\n";
-	print "Classes defined:\n";
+	print "Namespace/Global scoped classes defined during pre-eval:\n";
 	print "$data{all_classes}\n";
 }
 
